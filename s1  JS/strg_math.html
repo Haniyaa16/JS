@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+ <head> 
+    <title> String and math functions in JS</title>
+ </head>    
+ <body>
+    <h2>String and Math function</h2>
+    <script>
+        let text="Hello Javascript";
+        document.write("<h3>String Functions</h3>");
+        document.write("Original string : "+text+"<br>");
+        document.write("Length: "+text.length+"<br>");
+        document.write("Uppercase: "+ text.toUpperCase()+"<br>");
+        document.write("Lowercase: "+ text.toLowerCase()+"<br>");
+        document.write("Substring (0,5): "+text.substring(0,5)+"<br>");
+        document.write("Replace JavaScript with World: "+ text.replace("JavaScript","World")+"<br>");
+        document.write("Character at position 6: "+text.charAt(6)+"<br><br>");
+
+        document.write("<h3>Math Functions</h3>");
+        document.write("Square root of 16: "+Math.sqrt(16)+"<br>");
+        document.write("2 raised to power 4: "+Math.pow(2,4)+"<br>");
+        document.write("Round 4,7: "+Math.round(4,7)+"<br>");
+        document.write("Floor of 4,9: "+Math.floor(4,9)+"<br>");
+        document.write("Ceil of 4,1: "+Math.ceil(4,1)+"<br>");
+        document.write("Random number: "+Math.random()+"<br>");
+        document.write("Maximum of (5,10,15): "+Math.max(5,10,15)+"<br>");
+        document.write("Minimum of (5,10,15): "+Math.min(5,10,15)+"<br>");
+          </script>
+ </body>
+</html>
